@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: vhw;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTagk7mXoEZsFCCmfUzS4yyX2cTEqxmb531tBwhLmiSrgQ3H85duzfXmPqVMVchAhYAxg4&usqp=CAU);
+    background-size: auto;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+header h1 a {
+    color: #000000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.card {
+    background-color: #e4e4e4;
+    flex-basis: calc(100% / 3 - 20px);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 3px 27px 3px rgb(33, 44, 17);
+    color: rgb(7, 8, 17);
+    height: auto;
+}
+
+.card img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+article a {
+    color: #074744;
+    font-weight: bold;
+}
+
+aside {
+    background-color: #c4c9c9;
+    border: 1px solid #2e2f30;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    float: right;
+    width: 260px;
+}
+
+aside h2 {
+    color: #074744;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+aside h3 {
+    font-size: 14px;
+}
+
+aside ol {
+    font-size: 14px;
+}
+
+aside a {
+    color: #274746;
+    font-weight: bold;
+}
+
+section {
+    float: left;
+    width: 500px;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
