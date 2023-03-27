@@ -1,0 +1,68 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI2gzN3q9ztvzL7CzWBQAu2IUKDqxVo9_ueg&usqp=CAU);
+    background-size: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
+
+header h1 {
+    color: rgb(36, 19, 19);
+    text-align: center;
+    background-color: rgba(223, 215, 192, 0.562);
+}
+
+.container {
+    display: flex;
+    flex-basis: calc(100% / 2 - 10px);
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+section {
+    float: left;
+    width: 500px;
+}
+
+article {
+    background-color: rgb(223, 215, 192);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 5px 3px 15px 3px rgb(63, 63, 58);
+    padding: 5px;
+    text-align: center;
+}
+
+article img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+aside {
+    padding: 10px;
+    float: right;
+    width: 250px;
+    background-color: rgba(223, 215, 192, 0.712);
+    align-self: flex-start;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgba(223, 215, 192, 0.562);
+}
+
+aside h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+aside ol {
+    font-size: 16px;
+}
