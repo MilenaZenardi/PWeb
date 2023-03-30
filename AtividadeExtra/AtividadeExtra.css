@@ -1,0 +1,80 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+}
+
+@media (min-width:300px) and (max-width: 420px){
+    div{
+        background-color: grey;
+    }
+    h1::after{
+        content: "Cinza";
+    }
+}
+
+@media (min-width:421px) and (max-width: 768px){
+    div{
+        background-color: orange;
+    }
+    h1::after{
+        content: "Laranja";
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+    div{
+        background-color: pink;
+    }
+    h1::after{
+        content: "Rosa";
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1080px){
+    div{
+        background-color: red;
+    }
+    h1::after{
+        content: "Vermelho";
+    }
+}
+
+@media (min-width:1081px) and (max-width: 1366px){
+    div{
+        background-color: blue;
+    }
+    h1::after{
+        content: "Azul";
+    }
+}
+
+@media (min-width:1367px) and (max-width: 1920px){
+    div{
+        background-color: yellow;
+    }
+    h1::after{
+        content: "Amarelo";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
