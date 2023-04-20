@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Criando uma pesquisa</title>
+    <script src="Atividade8.js"></script>
+</head>
+
+<body>
+    <h1>Pesquisa</h1>
+    <form id="pesquisa">
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade">
+        <br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="sexoM" name="sexo" value="masculino">
+        <label for="sexoM">Masculino</label>
+        <input type="radio" id="sexoF" name="sexo" value="feminino">
+        <label for="sexoF">Feminino</label>
+        <br>
+        <label for="opiniao">Opinião:</label>
+        <select name="opiniao" id="opiniao">
+            <option value="4">Ótimo</option>
+            <option value="3">Bom</option>
+            <option value="2">Regular</option>
+            <option value="1">Péssimo</option>
+        </select>
+        <br><br>
+        <input type="button" value="Enviar respostas" onclick="enviar()">
+    </form>
+    <br><br>
+    <h2>Dados Coletados:</h2>
+    <p>Média da idade das pessoas: <span id="mediaIdade"></span></p>
+    <p>Pessoa mais velha: <span id="maisVelha"></span></p>
+    <p>Pessoa mais nova: <span id="maisNova"></span></p>
+    <p>Quantidade de pessoas que responderam PÉSSIMO: <span id="qtdePessimo"></span></p>
+    <p>Porcentagem de pessoas que responderam ÓTIMO e BOM: <span id="porcentagem"></span></p>
+    <p>Número de mulheres que responderam ao questionário: <span id="qtdeMulheres"></span></p>
+    <p>Número de homens que responderam ao questionário: <span id="qtdeHomens"></span></p>
+</body>
+
+</html>
