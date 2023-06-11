@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milena Zenardi</title>
+    <link rel="stylesheet" href="PortifolioMilena.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="LogoMilena.png" alt="meuLogo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#conhecimentos">Conhecimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menumobile">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#conhecimentos">Conhecimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+        <div class="btnmobile">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+    </header>
+    <main id="home">
+        <div class="container">
+
+            <div class="apresentacao">
+                <h1>Olá!</h1>
+                <h2>Muito prazer, me chamo Milena!</h2>
+                <h3>Sou estudante de Análise e Desenvolvimento de Sistemas <br>na Fatec Sorocaba</h3>
+            </div>
+        </div>
+    </main>
+    <section id="sobre">
+        <div class="container">
+            <div class="titulo">
+                <h1>Sou uma desenvolvedora <br>em formação</h1>
+                <br>
+                <p>Essa aí do lado sou eu!</p>
+                <p>Tenho 24 anos, moro em Araçoiaba da Serra</p>
+                <p>Estudo Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia de Sorocaba</p>
+                <p>Atualmente no 5º semestre</p>
+                <p>Pretendo ser uma desenvolvedora front-end</p>
+                <p>Tenho facilidade e empenho em aprender coisas novas</p>
+            </div>
+        </div>
+    </section>
+    <section id="conhecimentos">
+        <div class="container">
+            <div class="titulo">
+                <h1>Esses são alguns de meus conhecimentos</h1>
+                <p>Estou sempre em busca de aprimorar meus conhecimentos e apender muito mais</p>
+                <div class="box">
+                    <p>85%</p>
+                    <div class="b1">
+                        <div class="b2"></div>
+                    </div>
+                    <span><strong>HTML</strong></span>
+
+                    <p>80%</p>
+                    <div class="b1">
+                        <div class="b3"></div>
+                    </div>
+                    <span><strong>CSS</strong></span>
+
+                    <p>70%</p>
+                    <div class="b1">
+                        <div class="b4"></div>
+                    </div>
+                    <span><strong>JavaScript</strong></span>
+
+                    <p>Inglês</p>
+                    <div class="b1">
+                        <div class="b5"></div>
+                    </div>
+                    <span><strong>Intermediário</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <input type="radio" name="slider" id="item1" checked>
+            <input type="radio" name="slider" id="item2">
+            <input type="radio" name="slider" id="item3">
+            <div class="cards">
+                <label class="card" for="item1" id="email">
+                    <h1>E-mail</h1>
+                    <p>Entre em contato comigo via e-mail</p>
+                    <span><ion-icon name="mail-outline"></ion-icon></span>
+                    <a href="mailto:milena.zenardi@gmail.com" target="_blank">Entrar em contato</a>
+                </label>
+                <label class="card" for="item2" id="whats">
+                    <h1>WhatsApp</h1>
+                    <p>Mande uma mensagem pelo WhatsApp</p>
+                    <span><ion-icon name="logo-whatsapp"></ion-icon></span>
+                    <a href="https://api.whatsapp.com/send?phone=5511953027224&text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20seu%20portif%C3%B3lio" target="_blank">Mandar mensagem</a>
+                </label>
+                <label class="card" for="item3" id="linkedin">
+                    <h1>LinkedIn</h1>
+                    <p>Conheça meu LinkedIn</p>
+                    <span href=""><ion-icon name="logo-linkedin"></ion-icon></span>
+                    <a href="https://www.linkedin.com/in/milena-zenardi-0a4413239/" target="_blank">Acessar</a>
+                </label>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>Milena Zenardi - Todos os direitos reservados © 2023</span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btnmobile").click(function () {
+                $(".menumobile").slideToggle("slow")
+            })
+        })
+    </script>
+</body>
+
+</html>
